@@ -1,0 +1,152 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+#logo{
+    width: 176px;
+    height: 79px;
+}
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.fixedTop {
+    position: fixed;
+    width: 100%;
+    z-index: 2200;
+    top: 0;
+}
+.headerBgSub {
+    background-image: url(./assests/toplogo.png);
+    background-position: bottom center;
+    padding-bottom: 15px;
+}
+.headerBg, .headerBgSub {
+    background-image: url(./assests/toplogo.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1800;
+}
+
+.subNav, .subNavSub {
+    /* float:left; */
+    /* width:77%; */
+    text-align: center;
+    /* padding-top:40px; */
+}
+
+.subNavSub {
+    padding-top: 10px;
+}
+
+.subNav li, .subNavSub li {
+    display: inline;
+    padding: 0 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: #382a18;
+    font-weight: bold;
+}
+
+
+.wrap {
+    width: 100%;
+    max-width: 1140px;
+    margin: 3px auto;
+    text-align: left;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.subNavSub ul {
+    position: relative;
+    z-index: 20;
+    top: -80px;
+    list-style: none;
+    left: 300px;
+}
+
+.Link:hover{
+color:red;
+}
+.subNavSub li{    width: 61px;}
+.subNavSub li a{display:block;color:#7f1b1b;width:200px;}
+p{
+    
+        width: 1490px;
+ padding: 5px 5px 5px 5px;
+    }
+    
+.banner img {
+    padding-top: 32px;
+    width: 51%;
+}
+img {
+    max-width: 1512%;
+    max-height: 526%;
+    height: auto;
+}
+img {
+    vertical-align: top;
+    padding-top: 32px;
+  
+}
+.bannerWrappSub {
+    width: 200%;
+}
+h5{
+    color:black;
+}
+img {
+    width: 496px;
+}
+.icon-set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 31%;
+    padding: 25px;
+    
+
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+    border-radius: 50%;
+    display: flex;
+}
+.icon i{
+    font-size: 30px;
+   
+}
+.icon:hover{
+    background-image:linear-gradient(tori ght, yellow red)
+}
+
+
+.contact {
+    float: left;
+    width: 100.5%;
+    margin: 0 2% 20px 0;
+    background-color: rgb(195 197 158);
+}
+.footer {
+    background-image: url(./assests/toplogo.png);
+    background-position: center top;
+    height:153px;
+    text-align: center;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+}
